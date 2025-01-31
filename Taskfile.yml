@@ -1,0 +1,12 @@
+# https://taskfile.dev
+
+version: '3'
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  dev:
+    cmds:
+      - serve --port 2957 .
+    silent: true
